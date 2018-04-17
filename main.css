@@ -11,6 +11,15 @@ h1, h2 {
   width: 90vw;
   margin: 3vw;
 }
+@media screen and (max-width: 400px) {
+  body {
+    background-color: red;
+  }
+
+  .threephotos {
+    display: block;
+  }
+}
 .threephotos figure {
   width: 30%;
 }
@@ -24,7 +33,17 @@ h1, h2 {
    }
 }
 
-@media only screen and (min-width: 600px) {
+@media screen and (max-width: 414px) {
+  body {
+    background-color: red;
+  }
+
+  .threephotos {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 415px) {
   body {
     background-color: yellow;
   }
@@ -33,4 +52,3 @@ h1, h2 {
     display: block;
   }
 }
-
